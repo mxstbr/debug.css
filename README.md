@@ -13,3 +13,7 @@ Simply include a link to the stylesheet in the head of your document, like so:
 Alternatively, create a bookmark and copy the following code into the URL field to create a bookmarklet for quick debugging:
 
     javascript:(function(){var e=document.createElement("link");e.setAttribute("href","https://rawgithub.com/mxstbr/debug.css/master/debug.css");e.setAttribute("rel","stylesheet");e.setAttribute("type","text/css");e.setAttribute("media","all");document.head.appendChild(e)})();
+
+## Credits
+
+H/T to [Darren Parker](https://www.designernews.co/stories/51936-css-tip-for-debugging-positioning) for the idea.
